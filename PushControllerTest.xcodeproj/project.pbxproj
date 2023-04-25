@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2755596729F166AC005E1FDE /* CustomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2755596629F166AC005E1FDE /* CustomTransitionAnimator.m */; };
+		2755596A29F23241005E1FDE /* UIView+MyHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2755596929F23241005E1FDE /* UIView+MyHook.m */; };
+		2755596D29F238E5005E1FDE /* CALayer+MyHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2755596C29F238E5005E1FDE /* CALayer+MyHook.m */; };
 		27E24BB529EFE0AC00639C0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E24BB429EFE0AC00639C0D /* AppDelegate.m */; };
 		27E24BB829EFE0AC00639C0D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E24BB729EFE0AC00639C0D /* SceneDelegate.m */; };
 		27E24BBB29EFE0AC00639C0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E24BBA29EFE0AC00639C0D /* ViewController.m */; };
@@ -14,9 +17,16 @@
 		27E24BC029EFE0AD00639C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E24BBF29EFE0AD00639C0D /* Assets.xcassets */; };
 		27E24BC329EFE0AD00639C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E24BC129EFE0AD00639C0D /* LaunchScreen.storyboard */; };
 		27E24BC629EFE0AD00639C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E24BC529EFE0AD00639C0D /* main.m */; };
+		27E24BD329EFE4B100639C0D /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E24BD229EFE4B100639C0D /* InputViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2755596529F166AC005E1FDE /* CustomTransitionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTransitionAnimator.h; sourceTree = "<group>"; };
+		2755596629F166AC005E1FDE /* CustomTransitionAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionAnimator.m; sourceTree = "<group>"; };
+		2755596829F23241005E1FDE /* UIView+MyHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MyHook.h"; sourceTree = "<group>"; };
+		2755596929F23241005E1FDE /* UIView+MyHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyHook.m"; sourceTree = "<group>"; };
+		2755596B29F238E5005E1FDE /* CALayer+MyHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+MyHook.h"; sourceTree = "<group>"; };
+		2755596C29F238E5005E1FDE /* CALayer+MyHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MyHook.m"; sourceTree = "<group>"; };
 		27E24BB029EFE0AC00639C0D /* PushControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E24BB329EFE0AC00639C0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27E24BB429EFE0AC00639C0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +39,8 @@
 		27E24BC229EFE0AD00639C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E24BC429EFE0AD00639C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E24BC529EFE0AD00639C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27E24BD129EFE4B100639C0D /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		27E24BD229EFE4B100639C0D /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,8 @@
 				27E24BB429EFE0AC00639C0D /* AppDelegate.m */,
 				27E24BB629EFE0AC00639C0D /* SceneDelegate.h */,
 				27E24BB729EFE0AC00639C0D /* SceneDelegate.m */,
+				27E24BD129EFE4B100639C0D /* InputViewController.h */,
+				27E24BD229EFE4B100639C0D /* InputViewController.m */,
 				27E24BB929EFE0AC00639C0D /* ViewController.h */,
 				27E24BBA29EFE0AC00639C0D /* ViewController.m */,
 				27E24BBC29EFE0AC00639C0D /* Main.storyboard */,
@@ -72,6 +86,12 @@
 				27E24BC129EFE0AD00639C0D /* LaunchScreen.storyboard */,
 				27E24BC429EFE0AD00639C0D /* Info.plist */,
 				27E24BC529EFE0AD00639C0D /* main.m */,
+				2755596529F166AC005E1FDE /* CustomTransitionAnimator.h */,
+				2755596629F166AC005E1FDE /* CustomTransitionAnimator.m */,
+				2755596829F23241005E1FDE /* UIView+MyHook.h */,
+				2755596929F23241005E1FDE /* UIView+MyHook.m */,
+				2755596B29F238E5005E1FDE /* CALayer+MyHook.h */,
+				2755596C29F238E5005E1FDE /* CALayer+MyHook.m */,
 			);
 			path = PushControllerTest;
 			sourceTree = "<group>";
@@ -148,7 +168,11 @@
 			files = (
 				27E24BBB29EFE0AC00639C0D /* ViewController.m in Sources */,
 				27E24BB529EFE0AC00639C0D /* AppDelegate.m in Sources */,
+				2755596729F166AC005E1FDE /* CustomTransitionAnimator.m in Sources */,
+				2755596A29F23241005E1FDE /* UIView+MyHook.m in Sources */,
 				27E24BC629EFE0AD00639C0D /* main.m in Sources */,
+				27E24BD329EFE4B100639C0D /* InputViewController.m in Sources */,
+				2755596D29F238E5005E1FDE /* CALayer+MyHook.m in Sources */,
 				27E24BB829EFE0AC00639C0D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GY6HM3K7K6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushControllerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GY6HM3K7K6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PushControllerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +352,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

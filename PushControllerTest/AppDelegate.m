@@ -2,10 +2,11 @@
 //  AppDelegate.m
 //  PushControllerTest
 //
-//  Created by 庞佳琪 on 2023/4/19.
+//  Created by kiki on 2023/4/19.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//
+//    [self setWindow:[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]]];
+//    UIViewController *controllerA = [[ViewController alloc]init];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controllerA];
+//    self.window.rootViewController = nav;
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
